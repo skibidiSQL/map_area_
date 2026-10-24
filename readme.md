@@ -55,4 +55,4 @@ PWA-приложение для создания и просмотра инте�
 Проект развернут с помощью платформы Vercel и полностью готов к использованию прямо в браузере. Никакой локальной установки и настройки сервера не требуется!
 
 Просто перейдите по ссылке:
-**[https://areamap-alpha.vercel.app/](https://areamap-alpha.vercel.app/)**
+**[https://areamap-alpha.vercel.app/](https://maparea-seven.vercel.app/)**
