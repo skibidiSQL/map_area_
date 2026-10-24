@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Карта пространства</title>
+  <meta name="theme-color" content="#e2231a">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg">
+  <link rel="stylesheet" href="vendor/fonts.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-v="auth">
+  <div id="auth"></div>
+  <div id="cab">
+    <aside id="nav"></aside>
+    <div id="nbk"></div>
+    <section id="home"></section>
+  </div>
+  <button class="hbtn" id="hb" aria-label="Меню">☰</button>
+
+  <header>
+    <button class="hbtn" id="bg" aria-label="Меню">☰</button>
+    <div class="logo">Карта пространства</div>
+    <h1 id="mname"></h1>
+    <button class="hbtn" id="shr" hidden>Поделиться</button>
+    <div class="seg">
+      <button id="mv" class="on">Посетитель</button>
+      <button id="mo">Организатор</button>
+    </div>
+  </header>
+  
+  <main>
+    <div id="tools"></div>
+    <div id="floors"></div>
+    <div id="stage">
+      <svg id="plan" viewBox="0 0 28 18"></svg>
+    </div>
+    <div class="chips" id="chips"></div>
+    <button class="fab" id="rbtn">Построить маршрут</button>
+  </main>
+  
+  <div id="sheet"></div>
+  
+  <div id="pv" hidden>
+    <canvas id="cv"></canvas>
+    <div id="hsl"></div>
+    <div class="pvtop">
+      <button data-v="close">✕</button>
+      <span id="pvn"></span>
+    </div>
+    <div id="pvinfo"></div>
+    <div id="pvbar"></div>
+  </div>
+  
+  <div id="modal" hidden>
+    <div></div>
+  </div>
+  
+  <div id="dlg" hidden><div></div></div>
+
+  <div id="toast"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="script.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
